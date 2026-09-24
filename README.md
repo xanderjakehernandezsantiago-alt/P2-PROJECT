@@ -4,7 +4,7 @@ def calculate_avrage(score1, score2, score3):
 students = int(input("how many students? ")) 
 
 for I in range (students) :
-    print("\nstundent", I + 1) 
+    print("\nStundent", I + 1) 
 
     name = input (" enter name : ") 
     activity1 = float(input("Activity1:" )) 
