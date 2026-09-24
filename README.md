@@ -7,18 +7,18 @@ for I in range (students) :
     print("\nstundent", I + 1) 
 
     name = input (" enter name : ") 
-    activity1 = float(input("Activity 1: ")) 
-    activity 2 = float(input("Activity 2: ")) 
-    activity 3 = float(inputA"Activity 3: ")) 
+    activity1 = float(input("Activity1:" )) 
+    activity2 = float(input("Activity2:" )) 
+    activity3 = float(input("Activity3:" )) 
 
-    average = calculate_avrage (activity1, activity2, activity3):
+    average = calculate_average (activity1, activity2, activity3)
 
     if average >= 90:
        status = "Excellent"
     elif avrage >= 80:
-       status "Veryg Good"
-    elif status >= 75:
-       status = "Passed
+       status = "Very Good"
+    elif average >= 75:
+       status = "Passed"
    eles:
        status = "Failed"
 
