@@ -19,7 +19,7 @@ for I in range (students) :
        status = "Very Good"
     elif average >= 75:
        status = "Passed"
-   eles:
+   else:
        status = "Failed"
 
    print("\nName:", name) 
